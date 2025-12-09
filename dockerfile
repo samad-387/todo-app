@@ -1,7 +1,7 @@
 FROM node: 14-alpine
 # Installer git et python
 RUN apk add --no-cache git python3 make g++ # cloner le dépôt
-RUN git clone -q https://github.com/najasoft/todo-app.git
+RUN git clone -q https://github.com/samad-387/todo-app.git
 # Dossier courant
 WORKDIR /todo-app
 COPY . .
